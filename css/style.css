@@ -162,6 +162,11 @@ h1,h2,h3{
     .header-heading{
         font-size: 2.4rem;
     }
+    .btn-download{
+        font-size: 1.2rem;
+        padding: .5rem 1rem;
+        
+    }
 }
 
 .about-paragraph{
