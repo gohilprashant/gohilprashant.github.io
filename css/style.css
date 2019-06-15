@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+
+
+html{
+    font-size: 62.5%;
+    /* 10px */
+    box-sizing:inherit;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    background-color: white;
+    /* width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100%; */
+   
+}
+
+h1,h2,h3{
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 1.5rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    
+}
+
+.logo-img{
+    width: 4rem;
+}
+
+.navigation{
+    
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-item{
+    list-style-type: none;
+    margin:0 1rem;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    height: 100vh;
+}
+.header-detail{
+    width: 50%;
+    padding: 15rem 0 15rem 8%;;
+}
+
+.header-heading{
+    font-size: 5rem;
+}
+
+.btn-download{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: blue;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-download:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    
+}
+
+.header-img-box{
+    width: 55%;
+}
+
+.header-img{
+    width: 100%;
+}
+.about-section{
+    margin-bottom: 15rem;
+    margin-top: 2rem;
+    padding-top: 12rem;
+}
+
+.about-details{
+    padding: 0 20%;
+    text-align: center;
+}
+
+.about-heading{
+    
+}
+
+.about-paragraph{
+    margin-top: 2rem;
+}
+
+.text-big{
+    font-size: 3rem;
+    
+}
+
+.about-skills{
+    
+}
+
+.skill-icon{
+    width: 7.5rem;
+    height: 8rem;
+}
+
+.about-skills-top{
+    margin-top: 5rem;
+    padding: 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-skills-bottom{
+    margin-top: 5rem;
+    padding: 0 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-name{
+    text-align: center;
+   
+}
+
+.works-section{
+   
+}
+
+.works-heading{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.works-section h3{
+    padding-left: 11%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.webdesign-container,.webdev-container{
+    margin-top: 3rem;
+}
+
+.webdesign-gallery,.webdev-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.works-item{
+    position: relative;
+    margin: 0 1.5%;
+    width: 22%;
+    min-width: 200px;
+
+}
+
+.works-item a{
+    padding: 3px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  
+    border: 1px solid black;
+}
+
+.works-item img{
+    width: 100%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.works-item:hover img {
+    opacity: 0.3;
+  }
+  
+.works-item:hover .middle {
+    opacity: 1;
+  }
+
+
+.works-btn-text{
+    padding:0 10%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn-work{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: black;
+    border-style: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border:1px solid black;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer{
+    margin-top: 15rem;
+    padding-top: 5rem;
+}
+
+.footer-heading{
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.footer-text{
+    text-align: center;
+    margin-bottom: 15rem;
+    font-size: 1.8rem;
+}
+
+.footer-text span{
+    margin: 0 1rem;
+}
+
+.footer-text a{
+    text-decoration: none;
+    color: #555;
+
+}
+
+.footer-text a:hover{
+    color: blue;
+}
+
+.footer-credit{
+    margin: 15rem 0 5rem 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
