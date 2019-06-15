@@ -67,11 +67,13 @@ h1,h2,h3{
 
 .header{
     display: flex;
-    height: 100vh;
+
 }
+
+   
 .header-detail{
     width: 50%;
-    padding: 15rem 0 15rem 8%;;
+    padding: 15rem 0 15rem 8%;
 }
 
 .header-heading{
@@ -118,6 +120,48 @@ h1,h2,h3{
 
 .about-heading{
     
+}
+
+/* for width 768px */
+@media only screen and (max-width:48em){
+    .header{
+        flex-direction: column;
+    }
+    .header-detail{
+        width: 80%;
+        padding: 3rem 0 0rem 12%;
+    }
+    .header-img-box{
+        width: 85%;
+        align-self: flex-end;
+    }
+    .header-heading{
+        font-size: 4rem;
+    }
+
+}
+
+                                  /* for width 392px */
+@media only screen and (max-width:24.5em){
+    .nav-bar{
+        padding: 1.5rem 1.5rem;
+    }
+    
+
+    .logo-img{
+        width: 3rem;
+    }
+    
+    .nav-item{
+        margin:0 .5rem;
+    }
+
+    .nav-item a{
+        font-size: 1.4rem;
+    }
+    .header-heading{
+        font-size: 2.4rem;
+    }
 }
 
 .about-paragraph{
@@ -180,17 +224,23 @@ h1,h2,h3{
 
 .webdesign-gallery,.webdev-gallery{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
 }
+
+.webdev-gallery{
+    justify-content:flex-start;
+}
+
 
 
 .works-item{
     position: relative;
     margin: 0 1.5%;
     width: 22%;
-    min-width: 200px;
+    min-width: 300px;
 
 }
 
@@ -245,6 +295,21 @@ h1,h2,h3{
     border:1px solid black;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
+
+/* for width 768px */
+@media only screen and (max-width:48em){
+    .webdev-gallery{
+        justify-content:center;
+    }
+
+    .works-item{
+
+        margin: 0 1.5%;
+        width: 80%;
+    
+    }
+}
+
 
 
 .footer{
